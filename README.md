@@ -49,7 +49,7 @@ Wake the Chain-Scale relic, survive the waves it calls, and reach the extraction
 
 ## Updates
 
-Installed builds update themselves. When a newer build is published here, the game announces it on launch; pause and choose **Update to build N**. The game downloads the zip, checks its SHA-256 against the digest GitHub publishes for the asset, confirms the build inside matches the release tag, then installs and restarts. If any file cannot be copied, the previous version is restored. The next launch tells you what happened.
+Installed builds update themselves. When a newer build is published here, the game downloads it in the background while you play, then asks: **Install and restart**, or **Later** (the pause menu keeps an **Install build N** button, and the download is reused next launch). Builds 66 to 69 predate this: open the pause menu once and choose **Update to build N**. The game downloads the zip, checks its SHA-256 against the digest GitHub publishes for the asset, confirms the build inside matches the release tag, then installs and restarts. If any file cannot be copied, the previous version is restored. The next launch tells you what happened.
 
 Releases are tagged `b<build>-<commit>`. The game only ever moves to a higher build number.
 

@@ -48,6 +48,7 @@
     </a>
     <nav class="nav" aria-label="Primary">
       <a href="#loop">The game</a>
+      <a href="#arsenal">Arsenal</a>
       <a href="#holds">Holds</a>
       <a href="#download">Download</a>
       <a href="#changelog">Changelog</a>
@@ -64,7 +65,7 @@
         <p class="dl-meta tele" data-release-meta>Latest build · Windows 10/11 64-bit · zip</p>
       </div>
       <ul class="tags" aria-label="At a glance">
-        <li>Top-down shooter</li><li>Mouse &amp; keyboard</li><li>Rising water</li><li>Four holds</li><li>Single player</li>
+        <li>Top-down shooter</li><li>Five weapons</li><li>Rising water</li><li>Four holds</li><li>Mouse &amp; keyboard</li>
       </ul>
     </div>
   </div>
@@ -84,14 +85,36 @@
       </article>
       <article class="pillar">
         <picture><source srcset="assets/armory.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/armory.jpg" width="1400" height="978" alt="The field workshop armory: five weapon families, a runic charge launcher with its reinforced core installed, and suit upgrades"></picture>
-        <div><span class="k">03</span><h3>Salvage and refit</h3><p>Break crates and enemies for scrap, then spend it at the terminal: harder pulse shots, a bigger runic blast, faster legs, a tougher suit. Upgrades carry to the next hold.</p></div>
+        <div><span class="k">03</span><h3>Salvage and refit</h3><p>Break crates and enemies for scrap, then spend it at the terminal: unlock a new weapon, install its module, or harden the suit. Everything you buy carries to the next hold.</p></div>
       </article>
     </div>
     <div class="specs">
       <div><b>Extract</b>Reach the pad before the four-minute window closes. Then go deeper.</div>
-      <div><b>Two weapons</b>Pulse Blaster for pressure, Runic Charge for walls, crates and crowds.</div>
+      <div><b>Five weapons</b>Start with the Pulse Blaster and Runic Charge. Buy the other three with scrap.</div>
       <div><b>High ground</b>Platforms are real steps up, reached by ramps. The water is shallower there.</div>
       <div><b>One run</b>Four holds back to back. Die and the contract starts over.</div>
+    </div>
+  </section>
+
+  <section id="arsenal" class="wrap" aria-labelledby="h-arsenal">
+    <div class="section-head"><span class="tele">// FIELD WORKSHOP</span><h2 id="h-arsenal">Three more ways to survive the flood</h2></div>
+    <p class="muted">The Pulse Blaster and Runic Charge come with the suit. Scrap buys the rest, one at a time, and each takes an upgrade module.</p>
+    <div class="arsenal">
+      <article class="card weapon" style="--accent:#bb75ff">
+        <picture><source srcset="assets/arc.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/arc.jpg" width="1000" height="562" alt="A violet arc from the Arc Welder striking an enemy, with sparks on the drones it chained to"></picture>
+        <span class="k">Arc Welder</span><h3>Hold to chain lightning</h3>
+        <p>The arc hits the nearest enemy in front of you and jumps to three more. Anything standing in the flood takes more and conducts it further.</p>
+      </article>
+      <article class="card weapon" style="--accent:#3dffbd">
+        <picture><source srcset="assets/beam.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/beam.jpg" width="1000" height="562" alt="The mint cone of the Tractor Beam reaching across the hold, a slam ring charged at its tip"></picture>
+        <span class="k">Tractor Beam</span><h3>Pull, then slam</h3>
+        <p>Haul loose scrap across the hold, drag drones into your line of fire, and slow the heavies. Hold it a second and let go to slam the tip.</p>
+      </article>
+      <article class="card weapon" style="--accent:#ff6b1f">
+        <picture><source srcset="assets/mines.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/mines.jpg" width="1000" height="562" alt="Three proximity mines with glowing orange trigger rings around the operative as an Iron Warden closes in"></picture>
+        <span class="k">Mine Layer</span><h3>Make them walk into it</h3>
+        <p>Drop proximity mines where the pack will come through. Three stay live. The blast breaks crates and walls, and it does not care whose boots are nearby.</p>
+      </article>
     </div>
   </section>
 
@@ -144,7 +167,7 @@
           <div><dt>WASD</dt><dd>Move</dd></div>
           <div><dt>Mouse</dt><dd>Aim, left button to fire</dd></div>
           <div><dt>Space</dt><dd>Dash</dd></div>
-          <div><dt>1 / 2</dt><dd>Switch weapon</dd></div>
+          <div><dt>1-5 / Q E</dt><dd>Switch weapon</dd></div>
           <div><dt>F</dt><dd>Relic, terminal, extraction</dd></div>
           <div><dt>Esc</dt><dd>Pause</dd></div>
         </dl>
@@ -169,7 +192,7 @@
 
   <section class="wrap status" aria-labelledby="h-status">
     <div class="section-head"><span class="tele">// STATUS</span><h2 id="h-status">An early build, played end to end</h2></div>
-    <p>All four holds are playable from the first relic to the last extraction. Three more weapon families are in the workshop but not yet in your hands, and the art and effects are still being pushed. Builds land here as they are ready.</p>
+    <p>All four holds and all five weapons are playable from the first relic to the last extraction. Balance and effects are still being pushed. Builds land here as they are ready.</p>
     <p class="muted">Want one email when it reaches a bigger milestone? <a href="https://ranswake.vercel.app/#waitlist">Join the list on the main site</a>.</p>
   </section>
 </main>

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rán's Wake: download the Windows build</title>
+<meta name="description" content="Rán's Wake is a top-down arcade salvage shooter in a flooding Norse-tech shipwreck. Wake the relic, survive the waves while the water rises, and extract through four holds. Free early build for Windows.">
+<link rel="canonical" href="https://gduplessy.github.io/RansWake-Releases/">
+<meta name="theme-color" content="#050b10">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rán's Wake">
+<meta property="og:title" content="Rán's Wake: take the relic, keep moving">
+<meta property="og:description" content="A top-down salvage shooter in a flooding Norse-tech shipwreck. Four holds, rising water, enemies that hunt like a pack. Free early build for Windows.">
+<meta property="og:image" content="https://gduplessy.github.io/RansWake-Releases/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://gduplessy.github.io/RansWake-Releases/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://gduplessy.github.io/RansWake-Releases/assets/og.jpg">
+<link rel="icon" href="assets/favicon.ico" sizes="48x48">
+<link rel="icon" href="assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/icon-16.png" sizes="16x16" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,900&f[]=general-sans@400,500,600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" as="image" href="assets/hero.webp" type="image/webp">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"VideoGame","name":"Rán's Wake","operatingSystem":"Windows 10, Windows 11","applicationCategory":"Game","genre":["Action","Shooter"],"playMode":"SinglePlayer","gamePlatform":"PC","url":"https://gduplessy.github.io/RansWake-Releases/","image":"https://gduplessy.github.io/RansWake-Releases/assets/og.jpg","description":"A top-down arcade salvage shooter set in a flooding Norse-tech shipwreck.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Georges Duplessy"}}
+</script>
+</head>
+<body>
+<a class="skip" href="#download">Skip to download</a>
+<div class="water" id="water" aria-hidden="true"></div>
+<p class="flood-tele tele" id="flood-tele" aria-hidden="true">WATER <b id="flood-tele-m">0.12m</b> · RISING</p>
+
+<header class="hero" aria-labelledby="h1">
+  <picture class="hero-bg">
+    <source srcset="assets/hero.webp" type="image/webp">
+    <img src="assets/hero.jpg" width="1560" height="877" alt="" fetchpriority="high">
+  </picture>
+  <div class="wrap top">
+    <a class="brand" href="./" aria-label="Rán's Wake home">
+      <img src="assets/icon-32.png" width="34" height="34" alt="">
+      Rán's Wake
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#loop">The game</a>
+      <a href="#holds">Holds</a>
+      <a href="#download">Download</a>
+      <a href="#changelog">Changelog</a>
+    </nav>
+  </div>
+  <div class="wrap hero-body">
+    <div class="hero-text">
+      <p class="eyebrow">Early build · Free · Windows</p>
+      <h1 id="h1">Rán's Wake</h1>
+      <p class="tagline">Take the relic. Keep moving.</p>
+      <p class="lede">A top-down arcade salvage shooter inside a flooding Norse-tech shipwreck. Wake the artifact, survive the waves, and reach the pad before the hold goes under.</p>
+      <div class="dl">
+        <a class="btn" id="dl-hero" href="https://github.com/gduplessy/RansWake-Releases/releases/latest" data-download>Download for Windows</a>
+        <p class="dl-meta tele" data-release-meta>Latest build · Windows 10/11 64-bit · zip</p>
+      </div>
+      <ul class="tags" aria-label="At a glance">
+        <li>Top-down shooter</li><li>Mouse &amp; keyboard</li><li>Rising water</li><li>Four holds</li><li>Single player</li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section id="loop" class="wrap" aria-labelledby="h-loop">
+    <div class="section-head"><span class="tele">// CONTRACT</span><h2 id="h-loop">How a run goes</h2></div>
+    <div class="pillars">
+      <article class="pillar">
+        <picture><source srcset="assets/relic.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/relic.jpg" width="1000" height="562" alt="The rune-lit Chain-Scale relic on its pedestal in the middle of the Bilge Deck"></picture>
+        <div><span class="k">01</span><h3>Wake the relic</h3><p>Every hold hides a Chain-Scale. Touch it and the guild's clock starts: waves spawn, the pumps fail, and the water begins to climb.</p></div>
+      </article>
+      <article class="pillar">
+        <picture><source srcset="assets/flood.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/flood.jpg" width="1000" height="562" alt="Eira Voss firing a pulse blaster at drones and an armored warden across a flooded deck"></picture>
+        <div><span class="k">02</span><h3>Fight in the flood</h3><p>The water is not scenery. It slows you, drags loose scrap toward the drain, and rises with every wave you clear. Hold the high ground or keep moving.</p></div>
+      </article>
+      <article class="pillar">
+        <picture><source srcset="assets/armory.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/armory.jpg" width="1400" height="978" alt="The field workshop armory: five weapon families, a runic charge launcher with its reinforced core installed, and suit upgrades"></picture>
+        <div><span class="k">03</span><h3>Salvage and refit</h3><p>Break crates and enemies for scrap, then spend it at the terminal: harder pulse shots, a bigger runic blast, faster legs, a tougher suit. Upgrades carry to the next hold.</p></div>
+      </article>
+    </div>
+    <div class="specs">
+      <div><b>Extract</b>Reach the pad before the four-minute window closes. Then go deeper.</div>
+      <div><b>Two weapons</b>Pulse Blaster for pressure, Runic Charge for walls, crates and crowds.</div>
+      <div><b>High ground</b>Platforms are real steps up, reached by ramps. The water is shallower there.</div>
+      <div><b>One run</b>Four holds back to back. Die and the contract starts over.</div>
+    </div>
+  </section>
+
+  <section id="holds" class="wrap" aria-labelledby="h-holds">
+    <div class="section-head"><span class="tele">// SITE SURVEY</span><h2 id="h-holds">Four holds, each worse than the last</h2></div>
+    <div class="gallery">
+      <figure>
+        <picture><source srcset="assets/hold7.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/hold7.jpg" width="1600" height="900" alt="Hold 7 in cold steel light: drones and an Iron Warden close in on the operative near the armory terminal"></picture>
+        <figcaption><span class="tele">01</span>Hold 7. Cold steel and salvage lamps. The artifact wakes and the water starts.</figcaption>
+      </figure>
+      <figure>
+        <picture><source srcset="assets/bilge.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/bilge.jpg" width="1600" height="900" alt="The Bilge Deck in murky green light, two long bulkheads forming lanes across the hold"></picture>
+        <figcaption><span class="tele">02</span>Bilge Deck. Bulkheads channel the water. Use the islands.</figcaption>
+      </figure>
+      <figure>
+        <picture><source srcset="assets/engine.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/engine.jpg" width="1600" height="900" alt="The Engine Gallery glowing furnace orange around a raised machinery block"></picture>
+        <figcaption><span class="tele">03</span>Engine Gallery. The engine block is high ground, and a trap.</figcaption>
+      </figure>
+      <figure>
+        <picture><source srcset="assets/keel.webp" type="image/webp"><img loading="lazy" decoding="async" src="assets/keel.jpg" width="1600" height="900" alt="The Keel in deep indigo and cyan rune light, Iron Wardens advancing between cargo stacks"></picture>
+        <figcaption><span class="tele">04</span>The Keel. Already flooding when you arrive. Everything at once.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="threats" class="wrap" aria-labelledby="h-threats">
+    <div class="section-head"><span class="tele">// THREATS</span><h2 id="h-threats">Enemies that hunt like a pack</h2></div>
+    <div class="grid-3">
+      <article class="card"><span class="k">Wake Drones</span><h3>They stage, then rush</h3><p>Drones wait out of sight until the pack is assembled, then come in from several sides at once.</p></article>
+      <article class="card"><span class="k">Tidecasters</span><h3>They lead their shots</h3><p>Casters find a line of sight, fire volleys that cover your strafe, then relocate before you can answer.</p></article>
+      <article class="card"><span class="k">Iron Wardens</span><h3>They charge through cover</h3><p>Armored front, telegraphed charge, slow to turn. Flank them or bring the Runic Charge.</p></article>
+    </div>
+  </section>
+
+  <section id="download" class="wrap" aria-labelledby="h-download">
+    <div class="section-head"><span class="tele">// FIELD KIT</span><h2 id="h-download">Download and play</h2></div>
+    <div class="install">
+      <div class="panel">
+        <a class="btn" href="https://github.com/gduplessy/RansWake-Releases/releases/latest" data-download>Download for Windows</a>
+        <p class="dl-meta tele" data-release-meta>Latest build · Windows 10/11 64-bit · zip</p>
+        <ol class="steps">
+          <li><b>Extract the zip</b> somewhere you own, such as Documents or Desktop. Not Program Files: the game updates itself in place.</li>
+          <li><b>Run <code>RansWake/RansWake.exe</code>.</b> The build is not code-signed yet, so Windows SmartScreen may say it protected your PC. Choose <i>More info</i>, then <i>Run anyway</i>.</li>
+          <li><b>Stay current.</b> When a newer build is published, the game announces it. Pause and choose <i>Update</i>: it downloads, verifies the file against its published SHA-256, installs, and restarts. A failed install rolls back.</li>
+        </ol>
+      </div>
+      <div class="side">
+        <h3>Controls</h3>
+        <dl class="keys">
+          <div><dt>WASD</dt><dd>Move</dd></div>
+          <div><dt>Mouse</dt><dd>Aim, left button to fire</dd></div>
+          <div><dt>Space</dt><dd>Dash</dd></div>
+          <div><dt>1 / 2</dt><dd>Switch weapon</dd></div>
+          <div><dt>F</dt><dd>Relic, terminal, extraction</dd></div>
+          <div><dt>Esc</dt><dd>Pause</dd></div>
+        </dl>
+        <h3>System</h3>
+        <ul class="plain">
+          <li>Windows 10 or 11, 64-bit</li>
+          <li>DirectX 11 graphics card</li>
+          <li>About 230 MB of disk space</li>
+          <li>Tested at 1440p, 60 fps on an RTX 3060</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="changelog" class="wrap" aria-labelledby="h-changelog">
+    <div class="section-head"><span class="tele">// TRANSMISSIONS</span><h2 id="h-changelog">Changelog</h2></div>
+    <ol class="log" id="log" aria-live="polite">
+      <li class="muted">Loading builds from GitHub…</li>
+    </ol>
+    <p><a href="https://github.com/gduplessy/RansWake-Releases/releases">All builds on GitHub</a></p>
+  </section>
+
+  <section class="wrap status" aria-labelledby="h-status">
+    <div class="section-head"><span class="tele">// STATUS</span><h2 id="h-status">An early build, played end to end</h2></div>
+    <p>All four holds are playable from the first relic to the last extraction. Three more weapon families are in the workshop but not yet in your hands, and the art and effects are still being pushed. Builds land here as they are ready.</p>
+    <p class="muted">Want one email when it reaches a bigger milestone? <a href="https://ranswake.vercel.app/#waitlist">Join the list on the main site</a>.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div class="links">
+    <a href="https://github.com/gduplessy/RansWake-Releases/releases">Releases</a>
+    <a href="https://ranswake.vercel.app/">Main site</a>
+    <a href="https://github.com/gduplessy/RansWake-Releases/issues">Report a problem</a>
+  </div>
+  <p class="copy">Rán's Wake is made by Georges Duplessy. Builds are free to play; source is private.</p>
+</footer>
+
+<div class="sticky-cta"><a class="btn" href="https://github.com/gduplessy/RansWake-Releases/releases/latest" data-download>Download for Windows</a></div>
+
+<script src="water.js" defer></script>
+<script src="site.js" defer></script>
+</body>
+</html>
